@@ -22,7 +22,7 @@ namespace Com.MyCompany.MyGame
             // transformを取得
             Transform myTransform = this.transform;
             // 現在の座標からのxyz を1ずつ加算して移動
-            myTransform.Translate (0.0f, 0.0f,  1.0f);
+            myTransform.Translate (0.0f, 0.0f,  0.05f);
         }
 
     }
